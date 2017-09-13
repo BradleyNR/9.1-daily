@@ -53,8 +53,8 @@ function Human (config) {
 }
 
 let mason = new Human({
-  cool: false
 });
+mason.cool = false;
 
 let julia = new Human({
 });
