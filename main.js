@@ -44,7 +44,7 @@ let atticus = new Dog({
 function Human (config) {
   'use strict';
   this.feed = function(dog){
-    dog.hungry = 'false'
+    dog.hungry = false;
   },
   this.pet = function(dog){
     dog.status = 'happy';
@@ -58,7 +58,6 @@ mason.cool = false;
 
 let julia = new Human({
 });
-julia.feed(moonshine);
 
 
 // Instances of Human
